@@ -12,11 +12,11 @@
         android:theme="@style/Theme.QuickNotes"
         tools:targetApi="31">
         <activity
-            android:name=".CreateNoteActivity"
+            android:name=".activities.CreateNoteActivity"
             android:screenOrientation="portrait"
             android:windowSoftInputMode="stateHidden" />
         <activity
-            android:name=".MainActivity"
+            android:name=".activities.MainActivity"
             android:windowSoftInputMode="stateHidden"
             android:screenOrientation="portrait"
             android:exported="true">

@@ -1,10 +1,12 @@
-package com.example.quicknotes;
+package com.example.quicknotes.activities;
 
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
 import android.view.View;
 import android.widget.ImageView;
+
+import com.example.quicknotes.R;
 
 public class CreateNoteActivity extends AppCompatActivity {
 
