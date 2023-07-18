@@ -58,6 +58,19 @@
                 android:imeOptions="actionDone"
                 app:layout_constraintTop_toBottomOf="@id/return_from_createnote"/>
 
+            <TextView
+                android:id="@+id/textdateandtime"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/ubuntu_regular"
+                android:includeFontPadding="false"
+                android:textColor="@color/colorIcons"
+                android:textSize="@dimen/_10ssp"
+                app:layout_constraintEnd_toEndOf="@id/note_title"
+                app:layout_constraintStart_toStartOf="@id/note_title"
+                app:layout_constraintTop_toBottomOf="@id/note_title"
+                app:layout_constraintBottom_toTopOf="@id/createnote_subtitle"/>
+
             <EditText
                 android:id="@+id/createnote_subtitle"
                 android:layout_width="0dp"
